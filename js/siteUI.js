@@ -193,7 +193,7 @@ function renderBookmarkForm(bookmark = null) {
             />
             <label for="Url" class="form-label">Url</label>
             <input
-                class="form-control Url"
+                class="form-control URL"
                 name="Url"
                 id="Url"
                 placeholder="Url"
