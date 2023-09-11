@@ -4,7 +4,7 @@ function API_GetBookmarks() {
     return new Promise(resolve => {
         $.ajax({
             url: API_URL,
-            success: bookmarkss => { resolve(bookmarks); },
+            success: bookmarks => { resolve(bookmarks); },
             error: (xhr) => { console.log(xhr); resolve(null); }
         });
     });
