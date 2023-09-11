@@ -1,10 +1,10 @@
-//const API_URL = "https://api-server-5.glitch.me/api/bookmarks";
-const API_URL = "http://localhost:5000/api/bookmarks";
+const API_URL = "https://noiseless-lace-phone.glitch.me/api/bookmarks";
+// const API_URL = "http://localhost:5000/api/bookmarks";
 function API_GetBookmarks() {
     return new Promise(resolve => {
         $.ajax({
             url: API_URL,
-            success: bookmarks => { resolve(bookmarks); },
+            success: bookmarkss => { resolve(bookmarks); },
             error: (xhr) => { console.log(xhr); resolve(null); }
         });
     });
